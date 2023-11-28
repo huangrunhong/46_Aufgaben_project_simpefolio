@@ -1,0 +1,17 @@
+.footerstyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+}
+.footerstyle button {
+  margin-top: 1rem;
+}
+
+.footerstyle a {
+  font-size: 0.75rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  margin-top: 4rem;
+}

@@ -1,0 +1,162 @@
+body > div {
+  background-color: #23283e;
+  width: 100vw;
+}
+h1,
+h2,
+h3 {
+  color: #cdcdff;
+}
+p {
+  color: #bdbddd;
+}
+.navbar p {
+  color: #90a0d9;
+}
+
+.navbar svg {
+  fill: #bdbddd;
+}
+
+.labelstyle {
+  color: #bdbddd;
+
+  background-color: #2a2f4c;
+  box-shadow: 0 0 1rem #1c1e2f;
+}
+
+.mainstyle > section:nth-of-type(1) > article > div {
+  box-shadow: 0 0 1rem rgb(23, 26, 41);
+}
+
+nav a {
+  color: #bdbddd;
+}
+
+.modelIcon {
+  width: 1.5rem;
+  background-image: url(./assets/img/icons8-sonne-96.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  filter: inherit;
+  aspect-ratio: 1/1;
+}
+nav a::after {
+  background-color: #90a0d9;
+}
+
+.headerbox h1 span {
+  color: #90a0d9;
+}
+
+.footerstyle a {
+  color: #90a0d9;
+}
+
+.buttonstyle {
+  background-color: #23283e;
+  border: 1px solid #90a0d9;
+  color: #90a0d9;
+  background-image: linear-gradient(
+    to right,
+    #90a0d9 49.9%,
+    #90a0d9 49.9%,
+    #23283e 50%,
+    #23283e 50%
+  );
+}
+.buttonstyle:hover {
+  background-position: 0, 0;
+  color: #23283e;
+}
+
+.headerbox svg {
+  fill: #bdbddd;
+}
+
+/* hier beginnt der Lightmodel */
+
+.light {
+  background-color: white;
+}
+
+.light h1,
+.light h2,
+.light h3 {
+  color: #444;
+}
+.light p {
+  color: #444;
+}
+.light .navbar p {
+  color: #2978b5;
+}
+
+.light .navbar svg {
+  fill: #2978b5;
+}
+.light .modelIcon {
+  width: 1.5rem;
+  background-image: url(./assets/img/icons8-halbmond-64.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  filter: inherit;
+  aspect-ratio: 1/1;
+}
+
+.light .labelstyle {
+  color: #444;
+  background-color: white;
+  box-shadow: 0 1px 2px #444;
+}
+
+.light .mainstyle > section:nth-of-type(1) > article > div {
+  box-shadow: 0 1px 8px #444;
+}
+
+.light nav a,
+.light .footerstyle a {
+  color: #444;
+}
+
+.light .headerbox nav a::after {
+  background-color: #444;
+}
+.light .footerstyle a::after {
+  background-color: #2978b5;
+}
+
+.light .headerbox h1 span {
+  color: #2978b5;
+}
+
+.light .footerstyle a {
+  color: #2978b5;
+}
+
+.light .buttonstyle {
+  background-color: #ffffff;
+  border: 1px solid #2978b5;
+  color: #2978b5;
+  background-image: linear-gradient(
+    to right,
+    #2978b5 49.9%,
+    #2978b5 49.9%,
+    #fff 50%,
+    #fff 50%
+  );
+}
+.light .buttonstyle:hover {
+  background-position: 0, 0;
+  color: white;
+}
+
+.light .headerbox svg {
+  fill: #444;
+}
+
+.light .headerbox nav svg {
+  fill: #2978b5;
+}

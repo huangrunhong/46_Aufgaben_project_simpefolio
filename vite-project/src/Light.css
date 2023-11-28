@@ -1,0 +1,75 @@
+.dark :root {
+  background-color: white;
+}
+
+/* -   #fff;  #444;  #2978b5; */
+.dark h1,
+.dark h2,
+.dark h3 {
+  color: #444;
+}
+.dark p {
+  color: #444;
+}
+.dark .navbar p {
+  color: #2978b5;
+}
+
+.navbar svg {
+  fill: #2978b5;
+}
+
+.labelstyle {
+  color: #444;
+  background-color: white;
+  box-shadow: 0 1px 2px #444;
+}
+
+.mainstyle > section:nth-of-type(1) > article > div {
+  box-shadow: 0 1px 8px #444;
+}
+
+.headerbox nav a,
+.footerstyle a {
+  color: #444;
+}
+
+.headerbox nav a::after {
+  background-color: #444;
+}
+.footerstyle a::after {
+  background-color: #2978b5;
+}
+
+.headerbox h1 span {
+  color: #2978b5;
+}
+
+.footerstyle a {
+  color: #2978b5;
+}
+
+.buttonstyle {
+  background-color: #ffffff;
+  border: 1px solid #2978b5;
+  color: #2978b5;
+  background-image: linear-gradient(
+    to right,
+    #2978b5 49.9%,
+    #2978b5 49.9%,
+    #fff 50%,
+    #fff 50%
+  );
+}
+.buttonstyle:hover {
+  background-position: 0, 0;
+  color: white;
+}
+
+.headerbox svg {
+  fill: #444;
+}
+
+.headerbox nav svg {
+  fill: #2978b5;
+}

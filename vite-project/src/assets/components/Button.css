@@ -1,0 +1,10 @@
+.buttonstyle {
+  padding: 0.5rem 1rem;
+  font-size: 10px;
+  font-family: "Poppins";
+  font-weight: 400;
+
+  transition: all linear 0.3s;
+  background-size: 200%;
+  background-position: 100% 0;
+}

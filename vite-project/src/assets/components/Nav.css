@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin-inline: auto;
+  padding-top: 3rem;
+}
+.navbar p {
+  font-size: 1rem;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.navbar div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navbar svg {
+  width: 20px;
+  cursor: pointer;
+}

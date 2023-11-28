@@ -1,0 +1,22 @@
+.headerbox {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.headerbox p {
+  width: 60%;
+}
+
+.headerbox svg {
+  width: 30px;
+  cursor: pointer;
+}
+
+.headerbox div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
