@@ -1,8 +1,22 @@
-# React + Vite
+# Project Simpefolio Landingpage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a webpage that displays a person's resume. It can switch between dark and light modes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Which tools/technologies were used?
+
+- React
+- Javascript
+- CSS
+- HTML
+
+## For which screen sizes?
+
+responsiv
+
+## Screenshots
+
+## Authors
+
+[Runhong Huang](https://github.com/huangrunhong)
